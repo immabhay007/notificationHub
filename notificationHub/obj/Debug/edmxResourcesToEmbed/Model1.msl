@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="notificationHubDBModelStoreContainer" CdmEntityContainer="notificationHubDBEntities">
+    <EntitySetMapping Name="notification_tbl">
+      <EntityTypeMapping TypeName="notificationHubDBModel.notification_tbl">
+        <MappingFragment StoreEntitySet="notification_tbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

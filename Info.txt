@@ -1,0 +1,4 @@
+project name :- notificationHub
+database name :- notificationHubDB
+table name :- notificaion_tbl
+connection setting in web.config :- notificationHubDBEntities
